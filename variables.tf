@@ -6,4 +6,6 @@ variable "alb_name" {}
 variable "target_group_name" {}
 variable "rds_instance_name" {}
 
-variable "region" {}
+variable "region" {
+  default = "us-east-1"
+  }
