@@ -1,4 +1,6 @@
-variable "dashboard_name" {}
+variable "dashboard_name" {
+  default = "dash1"
+  }
 
 variable "ecs_cluster_name" {}
 variable "ecs_service_name" {}
